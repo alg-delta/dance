@@ -1,0 +1,148 @@
+.wrapper {
+	background: url(img/fon.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: Verdana;
+}
+
+.menu li {
+	display: inline-block
+}
+
+.menu a {
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-left:30px;
+		padding-right:30px;
+}
+
+.menu a:hover {
+	color:green;
+}
+
+.menu a.active {
+	color: purple;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 150px;
+	} 
+
+.logo {
+	width: 350px;
+}
+/* Головна */
+.main-img {
+	float:right;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}	
+
+.text-title {
+	color: white;
+	font-size: 40px;
+	font-family: Verdana;
+	margin-top: 200px;
+}
+
+.subtitle {
+	color: white;
+	font-style: italic;
+}
+.button {
+	width: 140px;
+	height: 60px;
+	font-family: Verdana;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: white;
+	border: 4px double purple;
+}
+.button a {
+	text-decoration: none;
+	color: purple;
+}	
+	
+.button:hover {
+	background-color: transparent;
+}
+.aboutimg {
+	float: left;
+}
+
+.oip {
+	text-align: center;
+}
+
+
+/* Товари */
+
+.tovars {
+text-align: center;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}	
+	
+.tovars ul {
+		list-style: none;
+		padding: 0;
+}	
+	
+.tovars-title {
+	color: white;
+	font-family: Verdana;
+}
+
+.dostavka {
+	color: blue;
+	font-style: italic;
+}
+	
+.price {
+	color: grey;
+	font-style: italic;
+}
+
+.robot:hover {
+	transform: scale(1.1);
+}
+
+.about {
+	color: white;
+}
+.we {
+	color: white;
+}
+
+.jpg {
+	height: 350px;
+	float: right;
+	
+}	
+	
+.video {
+	
+	
+	
+	
+
